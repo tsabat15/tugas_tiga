@@ -21,26 +21,11 @@ Kosongkan nama mata kuliah untuk selesai dan mencetak KHS.
 
 ## b. Satu sesi dengan input salah
 
-Sesi berikut memuat dua input salah: SKS `tiga` dan nilai `Z`. Keduanya diabaikan dan program tetap berjalan. Teks ini adalah keluaran asli program; input dikirim lewat berkas sehingga tidak tampil di sebelah label.
+Sesi berikut memuat dua input salah: SKS `tiga` dan nilai `z`. Keduanya diabaikan dan program tetap berjalan. IP sesi ini adalah (3×4 + 2×3 + 2×0) ÷ 7 = 18 ÷ 7 = 2.57.
 
-```
-Masukkan data mata kuliah. Kosongkan nama untuk selesai.
+![Sesi dengan input salah](screenshots/sesi.png)
 
-Nama MK : SKS     : Nilai   : Nama MK : SKS     : Data diabaikan: SKS harus berupa angka 1-6, bukan "tiga".
-Nama MK : SKS     : Nilai   : Nama MK : SKS     : Nilai   : Data diabaikan: Nilai harus A, B, C, D, atau E, bukan "Z".
-Nama MK : SKS     : Nilai   : Nama MK : 
-Mata Kuliah                SKS  Nilai
--------------------------------------
-Pemrograman Mobile           3  A
-Statistika                   2  B
-Etika Profesi                2  D
--------------------------------------
-Total SKS : 7
-IP        : 2.86 (Memuaskan)
-Perlu diperbaiki: Etika Profesi
-```
-
-Catatan: contoh di modul menulis IP 3.00, padahal data yang sama menghasilkan (3×4 + 2×3 + 2×1) ÷ 7 = 20 ÷ 7 = **2.86**. Program ini mencetak hasil hitungan yang benar.
+Catatan: contoh di modul menulis IP 3.00 untuk nilai A (3 SKS), B (2 SKS), dan D (2 SKS), padahal hitungannya (3×4 + 2×3 + 2×1) ÷ 7 = 20 ÷ 7 = **2.86**. Program ini mencetak 2.86 untuk data tersebut.
 
 ## c. Higher-order function dan error handling
 
